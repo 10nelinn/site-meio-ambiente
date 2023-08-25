@@ -1,0 +1,85 @@
+/* Reset CSS básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    align-items: center;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-left: 180px;
+    
+  }
+
+  section{
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding: 160px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .article {
+    flex-basis: 45%;
+  }
+
+  footer{
+    background-color: #333;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .rodapé2{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+  
